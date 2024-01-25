@@ -13,27 +13,38 @@ namespace Inheritance
 
 
             // Create a class Bird
-            // give this class 4 members that are specific to Bird
-            // Set this class to inherit from your Animal Class
+            // give this class 4 members that are specific to Bird  Done
+            // Set this class to inherit from your Animal Class     Done
 
             // Create a class Reptile
             // give this class 4 members that are specific to Reptile
             // Set this class to inherit from your Animal Class
 
 
+            Bird bird1 = new Bird();
+            bird1.Beak = "Yes";
+            bird1.Song = true;
+            bird1.Wings = "yes";
+            bird1.Toe = 3;
+            bird1.Weight = 2; 
+
+            //Create an object of your Bird class
+           
+            
+            Console.WriteLine($"The birrds has{bird1.Toe}  {bird1.Wings} {bird1.Song} {bird1.Weight} {bird1.Beak}");
+            //Create an object of your Reptile class
+            //  give values to your members using the object of your Reptile class
+           
+
+            Reptile Rep = new Reptile("Python", true, 4, "Rainforest");
+           
+            Console.WriteLine("======Calling method=============");
+
+            Rep.display();
 
 
-            /*Create an object of your Bird class
-             *  give values to your members using the object of your Bird class
-             *  
-             * Creatively display the class member values 
-             */
 
-            /*Create an object of your Reptile class
-             *  give values to your members using the object of your Reptile class
-             *  
-             * Creatively display the class member values 
-             */
+
         }
     }
 }
