@@ -12,14 +12,6 @@ namespace Inheritance
             // give this class 4 members that all Animals have in common
 
 
-            // Create a class Bird
-            // give this class 4 members that are specific to Bird  Done
-            // Set this class to inherit from your Animal Class     Done
-
-            // Create a class Reptile
-            // give this class 4 members that are specific to Reptile
-            // Set this class to inherit from your Animal Class
-
 
             Bird bird1 = new Bird();
             bird1.Beak = "Yes";
@@ -40,7 +32,9 @@ namespace Inheritance
            
             Console.WriteLine("======Calling method=============");
 
-            Rep.display();
+            Rep.Display();
+            bird1.DirdDetails();
+
 
 
 

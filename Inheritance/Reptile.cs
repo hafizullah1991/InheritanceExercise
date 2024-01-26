@@ -22,7 +22,7 @@ namespace Inheritance
             Habitat= habitat;
 
         }
-        public void display()
+        public void Display()
         {
             Console.WriteLine($"Meet our reptile friend: {Species}");
             Console.WriteLine($"NumberOfLegs: {NumberOfLegs}");

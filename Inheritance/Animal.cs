@@ -12,6 +12,6 @@ namespace Inheritance
         public string Color { get; set; }
         public bool HasEyes { get; set; }
         public int Weight { get; set; }
-
+         
     }
 }
